@@ -60,3 +60,45 @@ p{
     color: #808080;
 }
 
+.slider-container{
+    width: 800px;
+    height: 600px;
+}
+
+.slideshow-container{
+    width: 2400px;
+    height:600px;
+    position:relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: lesft 2s;
+    -o-transition: left 2s;
+}
+.slider-image{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button-coontainer{
+    top:-20px;
+    position: relative;
+}
+
+.slider-button{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color:darkslateblue;
+}
+
+#BEACH:target ~ .slideshow-container{
+    left: 0px;
+}
+#GitHub:target ~ .slideshow-container{
+    left: -800px;
+}
+#LinkedIn:target ~ .slideshow-container{
+    left: -1600px;
+}
