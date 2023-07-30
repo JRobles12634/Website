@@ -1,0 +1,472 @@
+::-webkit-scrollbar-thumb {
+    background-color: green;
+    border: 2px solid #fdfdfd;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e8fdee;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+.header{
+    align-items: center;
+    background-color: green;
+    display: flex;
+    color:black;
+    max-width: 100%;
+    height: 10vh;
+    font-size: 40px;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    padding: 0;
+    font-family: 'Tektur', cursive;
+    border-radius: 15px;
+    margin-left:1%;
+    margin-right:1%;
+    box-shadow: inset 0 0 4px 1px black;
+    border: 1px solid black;
+}
+
+.hero{
+    border-radius: 25px;
+    background-color: white;
+    border: 0px solid black; 
+    box-shadow: inset 0 0 4px 1px black;
+    height: 110vh;
+    color: green;
+    font-size: 35px;
+   /* background-image: url(Images/nasa.jpg); */ 
+    background-image: url(Images/Background.png); 
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat;
+    overflow: hidden;
+    margin:1%;
+    
+}
+
+.info{
+    border-radius: 25px;
+    background-color:black;
+    border: 0px solid black; 
+    box-shadow: inset 0 0 4px 1px black;
+    height: 150vh;
+    color: green;
+    font-size: 35px;
+    margin:1%;
+    background-image: url(Images/Background.png); 
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat;
+    
+}
+
+body{
+    background-color: rgb(70, 69, 69); 
+    color: green;
+    
+}
+
+
+
+#author {
+    position:relative; 
+    left:10px;
+}
+
+
+#hello{
+    display: inline-block;
+    position: relative;
+  /*  top: 11rem;
+    right:47.8%;
+    width: 52%;
+    font-size: 2rem;
+    font-weight: 900; */
+    padding:0;
+    width: 55%;
+    
+    
+}
+
+#secondary{
+    display: block;
+    position: absolute;
+  /*  top: 20em;
+    right:65em;
+    font-weight: 700;
+    left: 1em; */
+    margin-bottom: 2rem;
+    width: 35%;
+    font-family: 'Tektur', cursive;
+    color:lightgreen;
+}
+
+#wave{
+    position: relative;
+    display:block;
+    /* top:4em;
+    left: .5em; */
+    border-radius: 12px;
+    padding: .5rem .5rem; 
+    background: rgb(25 237 92 / 16%);
+    color: lightgreen;
+    background: hsl(100%, 100%, 40%, .75);
+    width: 25%;
+    font-family: 'Tektur', cursive;
+    font-size: 18.5px;
+}
+
+.picture-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left:-10%;
+}
+
+.chibi{
+    width:350px;
+    border-radius: 150px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size:25px;
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    margin:1%;
+    box-shadow: inset 0 0 4px 1px black;
+    border: 1px solid black;
+}
+
+footer:hover{
+    background-color: lightgreen;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.picture{
+    width: 300px;
+    border-radius: 150px;
+}
+
+.picture-container{
+    display: flex;
+    align-items:center;
+}
+
+p{
+    margin: 0;
+    font-size: 20px;
+}
+
+.button{
+    width: 90px;
+    height: 20px;
+    border-radius: 40px;
+    background-color:  green;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 0px;
+    margin-top: 30px;
+}
+
+.button:hover{
+    background-color: lightgreen;
+}
+
+.button:active{
+    background-color: darkgray;
+    color: #808080;
+}
+
+.language-box-title{
+    padding: 0.7rem 1.7rem;
+    align-items: center;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    background-color: black;
+    box-shadow: inset 0 0 4px 1px green;
+    width:180px;
+    height: 90px;
+    font-family: 'Tektur', cursive;
+}
+.projects-box-title{
+    margin-top: 3%;
+    padding: 0.7rem 1.7rem;
+    align-items: center;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    background-color: black;
+    box-shadow: inset 0 0 4px 1px green;
+    width:180px;
+    height: 90px;
+    font-family: 'Tektur', cursive;
+}
+.language-box{
+    align-items: center;
+    background: green;
+    display: flex;
+    flex:0 1 18%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    border-radius:15px;
+    box-shadow: inset 0 0 4px 1px black;
+    padding: .2rem;
+}
+.box-items{
+    align-items: center;
+    background: black;
+    border-radius:8px;
+    display:flex;
+    flex:0 1 18%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin: 1%;
+    box-shadow: inset 0 0 4px 1px green;
+}
+
+.hidden-magic{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.hidden-home-magic{
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+    padding: 4rem 5rem 0;
+    
+}
+
+.welcome-info{
+    padding-right:6rem;
+    width: 55%;
+    display:block;
+}
+
+
+
+/*.slider-container{
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slideshow-container{
+    width: 2400px;
+    height:600px;
+    position:relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: lesft 2s;
+    -o-transition: left 2s;
+    
+}
+.slider-image{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button-container{
+    top:-20px;
+    position: relative;
+}
+
+.slider-button{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color:rgb(93, 79, 224);
+}*/
+
+.flex-container{
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    flex-direction: row;
+    left:-1%;
+    position: relative;
+    
+}
+
+.flex-container-footer{
+    display: flex;
+    padding: 0px;
+    gap: 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+
+}
+
+.items {
+    border-radius: 25px;
+    background: black;
+    border: 2px solid lightgreen;
+    height: 40px;
+    flex: 1;
+    padding: 2px;
+    width: 40px;
+}
+.items:hover{
+    background-color: lightgreen;
+}
+/*.items-beach{
+    align-items: center;
+    background-color: grey;
+    color:grey;
+    display:flex;
+    height:9rem;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    position:relative;
+    width:33%;
+     font-size: 3.1rem;
+}*/
+.items-github{
+    align-items: center;
+    background-color: grey;
+    color:grey;
+    display:flex;
+    height:9rem;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    position:relative;
+    width:50%;
+    position:relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 4px 1px black;
+    border-radius: 15px;
+    margin:1%;
+    border: 1px solid black;
+}
+
+.items-github:hover{
+    background-color: lightgrey;
+}
+
+.items-linkedin{
+    align-items: center;
+    background-color: blue;
+    color:lightblue;
+    display:flex;
+    height:9rem;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    position:relative;
+    width:50%;
+    position:relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 4px 1px blue;
+    border-radius: 15px;
+    margin:1%;
+    border: 1px solid black;
+}
+
+.items-linkedin:hover{
+    background-color: skyblue;
+}
+
+.GitHub {
+    border-radius: 20px;
+    flex: 1;
+    color:blue;
+}
+
+.GitHub-footer {
+    border-radius: 20px;
+    flex: 1;
+    
+}
+
+.LinkedIn {
+    border-radius: 20px;
+    flex: 1;
+    color:blue;
+}
+
+.LinkedIn-footer {
+    border-radius: 20px;
+    flex: 1;
+}
+
+.Beach {
+    border-radius: 20px;
+    flex: 1;
+    color:blue;
+}
+
+.icon{
+    border-radius: 20px;
+    flex: 1;
+}
+
+.icon-unreal{
+    border-radius: 20px;
+    flex: 1;
+    background-color: white;
+}
+
+#contact-info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Tektur', cursive;
+    color: black;
+    
+}
+
+#mail-address{
+    color:black;
+    font-family: 'Tektur', cursive;
+}
+#job{
+    font-family: 'Tektur', cursive;
+    color:lightgreen;
+}
+a{
+    text-decoration: none;
+}
+
