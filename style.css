@@ -42,7 +42,7 @@
     }
 
     .welcome-info {
-        width: 90%;
+        width: 40%;
         margin: 0 auto;
         padding: 10px;
         font-size: 1vh;
@@ -51,11 +51,13 @@
     .language-box-title{
         width: 50%;
         height: auto;
+        padding: auto;
     }
 
     .projects-box-title{
         width: 50%;
         height: auto;
+        padding: auto;
     }
 
     /* Adjust other styles as needed for readability and usability on smaller screens */
