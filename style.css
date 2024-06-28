@@ -49,13 +49,13 @@
     }
 
     .language-box-title{
-        width: 10.38vh;
-        height: 4.15vh;
+        width: 90%;
+        height: auto;
     }
 
     .projects-box-title{
-        width: 10.38vh;
-        height: 4.15vh;
+        width: 90%;
+        height: auto;
     }
 
     /* Adjust other styles as needed for readability and usability on smaller screens */
