@@ -26,6 +26,7 @@
     .language-box {
         flex-direction:column;
         height:auto;
+        flex: auto;
          /* Stack languages vertically on smaller screens */
     }
 
@@ -45,6 +46,16 @@
         margin: 0 auto;
         padding: 10px;
         font-size: 2vh;
+    }
+
+    .language-box-title{
+        width: 10.38vh;
+        height: 4.15vh;
+    }
+
+    .projects-box-title{
+        width: 10.38vh;
+        height: 4.15vh;
     }
 
     /* Adjust other styles as needed for readability and usability on smaller screens */
