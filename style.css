@@ -98,6 +98,7 @@
     background-position:center;
     background-repeat: repeat;
     overflow: scroll;
+    overflow: hidden;
     margin:1%;
     -ms-overflow-style: none;  
     scrollbar-width: none; 
