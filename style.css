@@ -20,7 +20,7 @@
 
     .hero {
         height:auto; 
-        font-size: 2vh;/* Allow hero section to adjust height based on content */
+        font-size: 1vh;/* Allow hero section to adjust height based on content */
     }
 
     .language-box {
