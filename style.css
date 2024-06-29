@@ -178,7 +178,7 @@ body{
     padding:0;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    font-size: 2.5vh;
+    font-size: 3vh;
     text-align: left;
 }
 
@@ -201,7 +201,7 @@ body{
     background: rgb(25 237 92 / 16%);
     color: lightgreen;
     background: hsl(100%, 100%, 40%, .75);
-    width: 23%;
+    width: fit-content;
     font-family: 'Tektur', cursive;
     font-size: 2vh;
     margin-top: 20%;
