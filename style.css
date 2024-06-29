@@ -60,6 +60,11 @@
         padding: auto;
     }
 
+    #wave{
+        display: flex;
+        width: auto;
+    }
+
     /* Adjust other styles as needed for readability and usability on smaller screens */
 }
 
@@ -100,7 +105,6 @@
     background-position:center;
     background-repeat: repeat;
     overflow: scroll;
-    overflow: hidden;
     margin:1%;
     -ms-overflow-style: none;  
     scrollbar-width: none; 
@@ -156,27 +160,19 @@ body{
 #hello{
     display: inline-block;
     position: relative;
-  /*  top: 11rem;
-    right:47.8%;
-    width: 52%;
-    font-size: 2rem;
-    font-weight: 900; */
     padding:0;
-    width: 65%;
+    width: 100%;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    font-size: 2vh;
 }
 
 
 #secondary{
     display: block;
     position: relative;
-  /*  top: 20em;
-    right:65em;
-    font-weight: 700;
-    left: 1em; */
     margin-bottom: .5rem;
-    width: 70%;
+    width: 100%;
     font-family: 'Tektur', cursive;
     color:lightgreen;
     font-size: 2vh;
@@ -184,9 +180,7 @@ body{
 
 #wave{
     position: relative;
-    display:block;
-    /* top:4em;
-    left: .5em; */
+    display:flex;
     border-radius: 12px;
     padding: .5rem .5rem; 
     background: rgb(25 237 92 / 16%);
@@ -454,7 +448,7 @@ p{
     background-color: grey;
     color:grey;
     display:flex;
-    height:9rem;
+    height:100%; 
     justify-content: space-between;
     padding: 0 1.5rem;
     position:relative;
@@ -479,7 +473,7 @@ p{
     background-color: rgb(3, 3, 161);
     color:lightblue;
     display:flex;
-    height:9rem;
+    height:100%; 
     justify-content: space-between;
     padding: 0 1.5rem;
     position:relative;
