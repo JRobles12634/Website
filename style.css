@@ -49,19 +49,21 @@
     }
 
     .language-box-title{
+        display: flex;
         width: 50%;
         height: auto;
         padding: auto;
     }
 
     .projects-box-title{
+        display: flex;
         width: 50%;
         height: auto;
         padding: auto;
     }
 
     #wave{
-        display: flex;
+        display: contents;
         width: auto;
     }
 
