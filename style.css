@@ -19,8 +19,10 @@
     }
 
     .hero {
+        display: flex;
+        width: auto;
         height:auto; 
-        font-size: 1vh;/* Allow hero section to adjust height based on content */
+        /* Allow hero section to adjust height based on content */
     }
 
     .language-box {
@@ -63,8 +65,19 @@
     }
 
     #wave{
-        display: contents;
+        display: flex;
         width: auto;
+        font-size: 1vh;
+        margin-top: 3rem;
+    }
+
+
+    #hello{
+        font-size: 2vh;
+    }
+
+    #secondary{
+        font-size: 1vh;
     }
 
     /* Adjust other styles as needed for readability and usability on smaller screens */
@@ -101,7 +114,6 @@
     box-shadow: inset 0 0 4px 1px black;
     height: 100vh;
     color: green;
-    font-size: 3.5vh;
     background-image: url(Images/Background.png); 
     background-size: cover;
     background-position:center;
@@ -160,45 +172,51 @@ body{
 
 
 #hello{
-    display: inline-block;
-    position: relative;
+    display: flex;
+    height: auto;
+    width: auto;
     padding:0;
-    width: 100%;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    font-size: 2vh;
+    font-size: 2.5vh;
+    text-align: left;
 }
 
 
 #secondary{
-    display: block;
-    position: relative;
+    display: flex;
+    height: auto;
+    width: auto;
     margin-bottom: .5rem;
-    width: 100%;
     font-family: 'Tektur', cursive;
     color:lightgreen;
     font-size: 2vh;
+    text-align: left;
 }
 
 #wave{
-    position: relative;
     display:flex;
     border-radius: 12px;
     padding: .5rem .5rem; 
     background: rgb(25 237 92 / 16%);
     color: lightgreen;
     background: hsl(100%, 100%, 40%, .75);
-    width: 25%;
+    width: 23%;
     font-family: 'Tektur', cursive;
     font-size: 2vh;
-    margin-top: 30%;
+    margin-top: 20%;
+    
+   
+    
 }
 
 .picture-container{
     display: flex;
+    height: 100%;
+    width: 100%;
     align-items: center;
     position: relative;
-    margin-top: 15rem;
+    
     
 }
 
@@ -301,7 +319,6 @@ p{
 }
 
 .language-box-title{
-    padding: 0.7rem 1.7rem;
     align-items: center;
     border-radius: 12px;
     display: flex;
@@ -309,13 +326,13 @@ p{
     margin-bottom: 5rem;
     background-color: black;
     box-shadow: inset 0 0 4px 1px green;
-    width:180px;
-    height: 90px;
+    width:auto;
+    height: auto;
+    padding: 15px;
     font-family: 'Tektur', cursive;
 }
 .projects-box-title{
     margin-top: 3%;
-    padding: 0.7rem 1.7rem;
     align-items: center;
     border-radius: 12px;
     display: flex;
@@ -323,8 +340,9 @@ p{
     margin-bottom: 5rem;
     background-color: black;
     box-shadow: inset 0 0 4px 1px green;
-    width:180px;
-    height: 90px;
+    width:auto;
+    height: auto;
+    padding: 15px;
     font-family: 'Tektur', cursive;
 }
 
@@ -395,18 +413,18 @@ p{
     align-items:center;
     display: flex;
     justify-content: space-between;
-    height: 55vh;
-    padding: 3rem 4rem 0;
+    height: 100vh;
+    padding: 1rem 2rem 0;
     
 }
 
 .welcome-info{
-    height: auto;
+    height: 100%;
     width: 100%;
     display:inline-block;
     text-align:left;
-    padding: 2rem;
     flex-direction:column;
+    
 }
 
 
@@ -553,10 +571,7 @@ p{
     color:green;
     font-family: 'Tektur', cursive;
 }
-#job{
-    font-family: 'Tektur', cursive;
-    color:lightgreen;
-}
+
 a{
     text-decoration: none;
     color: green;
