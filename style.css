@@ -681,3 +681,13 @@ a{
     text-align: left;
 }
 
+.textbeach {
+    color: #0dda39;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: left;
+}
+
