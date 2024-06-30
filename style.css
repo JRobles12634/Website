@@ -587,6 +587,13 @@ a{
     position: relative;
     margin: auto;
     border-radius: 15px;
+    background-color: black;
+    box-shadow: inset 0 0 4px 1px green;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 25px;
 } 
 
 /* Hide the images by default */
